@@ -50,7 +50,7 @@ export class RecipeResolver {
     }
 
     @Query(() => [Recipe])
-    recipes(){
+    menu(){
         return Recipe.find()
     }
 }
